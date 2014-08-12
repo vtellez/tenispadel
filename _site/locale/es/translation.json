@@ -1,0 +1,62 @@
+{
+	"home":	"Inicio",
+	"services":	"Servicios",
+	"company":	"Empresa",
+	"projects":	"Proyectos",
+	"contact":	"Contacto",
+	"language":	"Idioma",
+	"languages": "Idiomas",
+
+	"desc1":	"Convertimos tus <strong>ideas</strong> en<br/> proyectos software <strong>reales</strong>",
+	"subdesc1":	"Trabajamos para que el menor de tus problemas sea el tecnológico.",
+	"desc2":	"<strong>Soluciones adaptables</strong><br/> a cualquiera de tus necesidades",
+	"subdesc2":	"Desarrollamos <strong>aplicaciones web</strong> y <strong>apps móviles</strong> para cualquier dispositivo",
+
+	"testimonials":	"Testimonios",
+	"testimonials_desc":	"opiniones de clientes que ya confían en nosotros",
+
+	"attr_intro":	"Dedicación a la <strong>Sencillez</strong>",
+	"attr_desc":	"para convertir tus ideas y proyectos en realidad",
+
+	"serv_intro":	"Nuestros servicios",
+	"serv_desc":	"Nuestro trabajo nos apasiona, y esa es nuestra clave",
+	"serv1_intro":	"Comunicación",
+	"serv1_desc":	"La comunicación con nuestros clientes es fundamental para realizar una correcta elicitación de requisitos. Es por ello que fijamos una dedicación especial en este punto.",
+	"serv2_intro":	"Diseño y desarrollo",
+	"serv2_desc":	"Plasmar una idea a un proyecto software requiere un buen diseño y desarrollo. Es un proceso fascinante en el que volcamos toda nuestra experiencia y creatividad.",
+	"serv3_intro":	"Soporte",
+	"serv3_desc":	"El servicio más importante de todos para nosotros. Mantener un constante feedback con nuestros clientes es vital para nuestra mejora continua y futuras colaboraciones.",
+
+	"work_intro":	"Nuestro trabajo",
+	"work_desc":	"Cuidamos las <strong>ideas</strong> de nuestros clientes tanto como las nuestras",
+	"show_all":	"Mostrar todos",
+	"our_projects":	"Nuestros proyectos",
+	"clients_projects":	"Proyectos para clientes",
+
+	"company_intro":	"Empresa",
+	"company_desc":	"Una breve referencia sobre <strong>quienes somos</strong> y nuestra <strong>filosofía de trabajo</strong>.",
+	"aboutus":	"Nosotros",
+	"filosofy":	"Filosofía",
+	"clients":	"Clientes",
+	"partners":	"Partners",
+	"work_with_us":	"Trabaja con nosotros",
+	"vtellez_desc": "Soy ingeniero informático. Trabajo con sistemas GNU/Linux desde el año 2003, principalmente en desarrollo web, administración de sistemas y servicios de backend.",
+
+
+	"contact_intro": "Contacta con nosotros",
+	"contact_desc":	"Estaremos encantados de <strong>escuchar tus necesidades</strong> y ayudarte a  <strong>resolverlas</strong>",
+
+	"name":	"Tu nombre",
+	"email":	"Email",
+	"subject":	"Asunto",
+	"msg":	"Mensaje",
+	"idea_desc":	"Descripción de tu idea/necesidad",
+
+
+	"legal":	"Legal",
+	"privacy":	"Privacidad",
+	"cookies":	"Cookies",
+	"condition_terms":	"Condiciones de uso",
+	"disclaimer":	"Aviso legal"
+
+}

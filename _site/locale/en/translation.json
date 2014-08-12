@@ -1,0 +1,62 @@
+{
+	"home":	"Home",
+	"services":	"Services",
+	"company":	"Company",
+	"projects":	"Projects",
+	"contact":	"Contact",
+	"language":	"Lang",
+	"languages": "Languages",
+
+	"desc1":	"We convert your <strong>ideas</strong><br/> into real <strong>software projects</strong>",
+	"subdesc1":	"No need to worry about the technological side of your ideas",
+	"desc2":	"<strong>Adaptable solutions</strong><br/> to any of your needs",
+	"subdesc2":	"We develop <strong>web applications</strong> and <strong>mobile apps</strong> for any device",
+
+	"testimonials":	"Testimonials",
+	"testimonials_desc":	"from customers who already trust us",
+
+	"attr_intro":	"Focus on <strong>SIMPLICITY</strong>",
+	"attr_desc":	"to make your ideas come true",
+
+	"serv_intro":	"Our services",
+	"serv_desc":	"We love our work, and that is our key",
+	"serv1_intro":	"Communication",
+	"serv1_desc":	"Communication with our customers is critical for proper elicitation of requirements. That is why we developed a special dedication at this point.",
+	"serv2_intro":	"Design & development",
+	"serv2_desc":	"Translating an idea to a software project requires a good design and development, for us it is a fascinating process in which we pour our experience and creativity.",
+	"serv3_intro":	"Support",
+	"serv3_desc":	"The most important service for us all. Maintaining a constant feedback with our customers is vital for our continued improvement and future collaborations.",
+
+	"work_intro":	"Our work",
+	"work_desc":	"We care about our customers' <strong>ideas</strong> as much as ours",
+	"show_all":	"Show all",
+	"our_projects":	"Our projects",
+	"clients_projects":	"Client's projects",
+
+	"company_intro":	"Company",
+	"company_desc":	"A brief reference <strong>who we are</strong> and our <strong>working philosophy</strong>.",
+	"aboutus":	"About",
+	"filosofy":	"Philosophy",
+	"clients":	"Clients",
+	"partners":	"Partners",
+	"work_with_us":	"Work with us",
+	"vtellez_desc": "I am a computer engineer. I've been working with GNU/Linux systems since 2003, mainly in web development, system administration and backend services.",
+
+
+	"contact_intro": "Contact us",
+	"contact_desc":	"We are happy to listen to <strong>your needs</strong> and help <strong>resolve</strong> them",
+
+	"name":	"Your name",
+	"email":	"Email",
+	"subject":	"Subject",
+	"msg":	"Message",
+	"idea_desc":	"Description of your idea or needs",
+
+
+	"legal":	"Legal",
+	"privacy":	"Privacy",
+	"cookies":	"Cookies",
+	"condition_terms":	"Terms of use",
+	"disclaimer":	"Disclaimer"
+
+}

@@ -1,0 +1,20 @@
+# Site settings
+baseurl: ""
+
+
+title: Tenis Sevilla
+desc: "Tenis & Paddel Sevilla"
+url: "http://www.gooveris.com"
+
+description: "Tenis & Paddel Sevilla"
+email: info@gooveris.com
+phone: "(+34) 670 468 166"
+location: "Avda. Marqués Vega Armijo, 99<br/>14550, Montilla (Córdoba) - Spain"
+
+linkedin:  "https://www.linkedin.com/company/gooveris"
+facebook: "https://www.facebook.com/gooveris"
+twitter: "https://twitter.com/gooveris"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

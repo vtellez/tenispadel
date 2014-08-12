@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ site.title }} - {{ site.desc }}</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ site.title }} {{ site.description }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+<!-- All Animations CSS -->
+<link href="{{ "/css/animate.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+<!-- Image Lightbox CSS-->
+<link rel="stylesheet" href="{{ "/css/imagelightbox.css" | prepend: site.baseurl }}" type="text/css" media="screen">
+<!-- Theme styles and Menu styles -->
+<link href="{{ "/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+<link href="{{ "/css/style.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+<link href="{{ "/css/mainmenu.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+<!-- Call Fontawsome Icon Font from a CDN -->
+<link href="css/awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!--FlexSlider -->
+<link rel="stylesheet" href="{{ "/js/woothemes-FlexSlider-06b12f8/flexslider.css" | prepend: site.baseurl }}" type="text/css" media="screen">
+<!--Isotope Plugin -->
+<link rel="stylesheet" href="{{ "/js/isotope/css/style.css" | prepend: site.baseurl }}" type="text/css" media="screen">
+<!--Simple Text Rotator -->
+<link href="{{ "/css/simpletextrotator.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+
+<script src="{{ "/js/jquery-1.10.2.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/js/i18nsext.js" | prepend: site.baseurl }}"> </script>
+<script>
+   if(localStorage.getItem('applang')) {
+       i18n.init({ lng: localStorage.getItem('applang'), resGetPath: '{{ "/locale/__lng__/__ns__.json" | prepend: site.baseurl }}' }, function(t) {
+         $(document).i18n();
+       });
+   } else {
+       i18n.init({resGetPath: '{{ "/locale/__lng__/__ns__.json" | prepend: site.baseurl }}'}, function(t) { 
+         $(document).i18n();
+       });
+   }
+
+
+   function chglang(lang){
+      i18n.init({lng: lang, resGetPath: '{{ "/locale/__lng__/__ns__.json" | prepend: site.baseurl }}'}, function(t) { 
+         $(document).i18n();
+       });
+   }
+</script>
+
+<!--Modernizer Custom -->
+<script type="text/javascript" src="{{ "/js/modernizr.custom.48287.js" | prepend: site.baseurl }}"></script>
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="apple-touch-fa-57x57-precomposed.png">
+<link rel="shortcut icon" href="favicon.png">
+</head>
+<body class="sticky_header">
+<div class="overflow_wrapper">
+     <header >
+          <div class="container" style="border-bottom: 0px solid #428bca;">
+               <div class="logo"><a class="brand" href="{{ "/" | prepend: site.baseurl }}" style="overflow: visible; margin-top: -10px; margin-bottom: 10px;">  <span class="logo_title" >
+
+               <!-- <i class="fa fa-cube" style="font-size: 1.2em; color: #428bca;"></i>  -->
+               <img src="images/logo.png" style="width: 90px; height: 90px; margin-top: -20px;" />
+               Tenis Sevilla<br/>  <i style="font-weight: normal; font-size: 20px;"> &nbsp;&nbsp;Tenis & Padel club</i> </span></a></div>
+               <div id="mainmenu" class="menu_container">
+                    <label class="mobile_collapser">MENU</label>
+                    <!-- Mobile menu title -->
+                    <ul>
+                    	{% if page.id == "main" %}
+                         <li class="active">
+                        {% else %}
+                         <li>	
+                        {% endif %}
+                         	<a href="{{ "/" | prepend: site.baseurl }}"><i class="fa fa-home"></i>&nbsp; <span data-i18n="home">Inicio</span></a></li>
+
+                        
+                        {% if page.id == "services" %}
+                         <li class="active">
+                        {% else %}
+                         <li>	
+                        {% endif %}
+                          	<a href="{{ "/services" | prepend: site.baseurl }}"><i class="fa fa-tags"></i>&nbsp; <span data-i18n="services">Escuelas</span></a></li>
+                        
+                        {% if page.id == "projects" %}
+                         <li class="active">
+                        {% else %}
+                         <li>	
+                        {% endif %}
+                          	<a href="{{ "/trophy" | prepend: site.baseurl }}"><i class="fa fa-group"></i>&nbsp; <span data-i18n="projects">Cursos</span></a></li>
+                        
+                        {% if page.id == "about" %}
+                         <li class="active">
+                        {% else %}
+                         <li>	
+                        {% endif %}
+                          	<a href="{{ "/about" | prepend: site.baseurl }}"><i class="fa fa-trophy"></i>&nbsp; <span data-i18n="company">Torneos</span></a></li>
+                         
+                    </ul>
+               </div>
+               <div class="triangle-up-left"></div>
+               <div class="triangle-up-right"></div>
+          </div>
+     </header>

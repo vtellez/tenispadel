@@ -59,7 +59,7 @@ jQuery(document).ready(function() {
          
         // Usability features
         pauseOnAction: true,            //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
-        pauseOnHover: true,            //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
+        pauseOnHover: false,            //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
         useCSS: true,                   //{NEW} Boolean: Slider will use CSS3 transitions if available
         touch: true,                    //{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices
         video: false,                   //{NEW} Boolean: If using video in the slider, will prevent CSS3 3D Transforms to avoid graphical glitches

@@ -1,17 +1,17 @@
 # Site settings
 baseurl: ""
 
-title: Tenis Pádel Sevilla
+title: "Tenis Pádel Sevilla"
 desc: "Tenis Pádel Sevilla"
 url: "http://www.tenispadelsevilla.com"
 
 description: "Tenis Pádel Sevilla"
 email: info@tenispadelsevilla.com
-phone: "(+34) 670 468 166"
-location: "Sevilla"
+phone: "(+34) 609 52 82 42"
+location: "Calle Fuentes de Andalucía<br/> 41005, Sevilla"
 
 linkedin:  "https://www.linkedin.com/company/gooveris"
-facebook: "https://www.facebook.com/gooveris"
+facebook: "https://www.facebook.com/tenispadelsevilla"
 twitter: "https://twitter.com/gooveris"
 
 # Build settings

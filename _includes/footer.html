@@ -5,7 +5,7 @@
                <section class="footer_teasers_wrapper dark_section triangled_section">
                     <div class="container">
                          <div class="row">
-                              <div class="footer_teaser pl_about_us_widget col-sm-4 col-md-4">
+                              <div class="footer_teaser pl_about_us_widget col-sm-4">
                               <br/>
                                    <p>
                                    <span class="logo_title" >
@@ -15,40 +15,17 @@
                                            <i style="border: 0px; font-size: 15px; clear:both;"> {{ site.desc }}</i>
                                         <br/>
                                    </span>
-                                   <br/><br/>
+                                   <br/>
                                    {{ site.location }}
                                    </p>
                                    <br/>
-                                   <br/>
-                                   <p><i class="fa fa-envelope"></i> {{ site.email }}</p>
-                                   <p><i class="fa fa-phone"></i> {{ site.phone }}</p>
-                                   <div class="footer_social">
-                                        <div class="social_wrapper">
-                                             <a href="mailto: {{ site.email }}"><i class="fa fa-envelope"></i></a>
-                                             <a href="{{ site.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a>
-                                             <a href="{{ site.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>
-                                             <a href="{{ site.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a>
-                                        </div>
-                                   </div>
+                                   <p>Copyright ©2014 all rights reserved</p>
                               </div>
-                              <div class="footer_teaser pl_flickr_widget col-sm-4 col-md-4">
-                                   
-
-                                   <h3><i class="fa fa-file"></i>&nbsp;&nbsp;<span data-i18n="legal">Legal</span></h3>
-                                   <p>
-                                      <a href="{{ url('lang/ca') }}" data-i18n="privacy">Privacidad</a><br/>
-                                      <a href="{{ url('lang/de') }}" data-i18n="cookies">Cookies</a><br/>  
-                                      <a href="{{ url('lang/en') }}" data-i18n="condition_terms"></a><br/> 
-                                      <a href="{{ url('lang/es') }}" data-i18n="disclaimer">Aviso legal</a><br/> 
-                                   </p>
-                                   <br/>
-                                   <p><b>{{ site.title }}</b> <br/> Copyright ©2014 all rights reserved</p>
-                              </div>
-
-                              <div class="footer_teaser pl_flickr_widget col-sm-4 col-md-4">
-
-
-                                
+                              <div class="footer_teaser pl_about_us_widget col-sm-4">
+                                   <h3>Contacto</h3>
+                                         <p><i class="fa fa-envelope"></i><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+                                         <p><i class="fa fa-phone"></i> {{ site.phone }}</p><br/>
+                                         <p><i class="fa fa-facebook"></i> <a href="{{ site.facebook }}" target="_blank">TenisPadelSevilla</a></p>
                               </div>
                          </div>
                     </div>
@@ -60,6 +37,9 @@
      
      <!--FlexSlider -->
      <script src="{{ "/js/woothemes-FlexSlider-06b12f8/jquery.flexslider-min.js" | prepend: site.baseurl }}"></script>
+     <!--Lightbox -->
+     <script src="{{ "/js/imagelightbox.min.js" | prepend: site.baseurl }}"></script>
+
      <!--Isotope Plugin -->
      <script src="{{ "/js/isotope/jquery.isotope.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
      <!--To-Top Button Plugin -->

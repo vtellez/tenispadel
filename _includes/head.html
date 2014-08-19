@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ site.title }} {{ site.description }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
+<link href="images/favicon.png" rel="shortcut icon" />
 <!-- All Animations CSS -->
 <link href="{{ "/css/animate.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
 <!-- Image Lightbox CSS-->
@@ -38,6 +38,14 @@
 <link rel="shortcut icon" href="favicon.png">
 </head>
 <body id="onepage" class="sticky_header" data-spy="scroll" data-target=".menu_container">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/es_ES/sdk.js#xfbml=1&appId=884074204943442&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="overflow_wrapper">
      <header >
           <div class="container" style="border-bottom: 0px solid #428bca;">

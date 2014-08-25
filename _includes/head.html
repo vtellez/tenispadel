@@ -84,6 +84,12 @@
                         {% endif %}
                           	<a href="#torneos"><i class="fa fa-trophy"></i>&nbsp; <span data-i18n="company">Torneos</span></a></li>
                          
+                        {% if page.id == "team" %}
+                         <li class="active">
+                        {% else %}
+                         <li> 
+                        {% endif %}
+                            <a href="#team"><i class="fa fa-group"></i>&nbsp; <span data-i18n="company">Equipo</span></a></li>
                     </ul>
                </div>
                <div class="triangle-up-left"></div>

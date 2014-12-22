@@ -55,40 +55,22 @@
                     <label class="mobile_collapser">MENU</label>
                     <!-- Mobile menu title -->
                     <ul>
-                    	{% if page.id == "main" %}
                          <li class="active">
-                        {% else %}
-                         <li>	
-                        {% endif %}
                          	<a href="{{ "/" | prepend: site.baseurl }}"><i class="fa fa-home"></i>&nbsp; <span data-i18n="home">Inicio</span></a></li>
-
                         
-                        {% if page.id == "services" %}
-                         <li class="active">
-                        {% else %}
-                         <li>	
-                        {% endif %}
+                        <li>  
                           	<a href="#escuelas"><i class="fa fa-building-o"></i>&nbsp; <span data-i18n="services">Escuelas</span></a></li>
                         
-                        {% if page.id == "projects" %}
-                         <li class="active">
-                        {% else %}
-                         <li>	
-                        {% endif %}
+                        <li>  
                           	<a href="#cursos"><i class="fa fa-group"></i>&nbsp; <span data-i18n="projects">Cursos</span></a></li>
+
+                        <li>  
+                            <a href="#team"><i class="fa fa-group"></i>&nbsp; <span data-i18n="company">Equipo</span></a></li>
                         
-                        {% if page.id == "about" %}
-                         <li class="active">
-                        {% else %}
                          <li>	
-                        {% endif %}
-                          	<a href="#torneos"><i class="fa fa-trophy"></i>&nbsp; <span data-i18n="company">Torneos</span></a></li>
+                          	<a href="#reservas"><i class="fa fa-clock-o"></i>&nbsp; <span data-i18n="company">Reservas</span></a></li>
                          
-                        {% if page.id == "team" %}
-                         <li class="active">
-                        {% else %}
                          <li> 
-                        {% endif %}
                             <a href="#team"><i class="fa fa-group"></i>&nbsp; <span data-i18n="company">Equipo</span></a></li>
                     </ul>
                </div>

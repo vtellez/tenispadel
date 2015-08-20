@@ -6,7 +6,7 @@ id: main
 <section id="slider_wrapper" class="slider_wrapper full_page_photo">
   <div id="main_flexslider" class="flexslider">
    <ul class="slides">
-    <li class="item" style="background-image: url({{ "/images/fotos/1.jpg" | prepend: site.baseurl }})">
+    <li class="item" style="background-image: url({{ "/images/fotos/9.jpg" | prepend: site.baseurl }})">
      <div class="container">
       <div class="carousel-caption animated bounceInUp">
        <h1 data-i18n="[html]dsesc1">Descubre el mejor club de<br/> <strong>Tenis & Padel</strong> en Sevilla</h1>
@@ -14,13 +14,21 @@ id: main
      </div>
    </div>
  </li>
- <li class="item" style="background-image: url({{ "/images/fotos/2.jpg" | prepend: site.baseurl }})">
+ <li class="item" style="background-image: url({{ "/images/fotos/1.jpg" | prepend: site.baseurl }})">
    <div class="container">
     <div class="carousel-caption animated bounceInUp">
      <h1 data-i18n="[html]dsesc1">Descubre el mejor club de<br/> <strong>Tenis & Padel</strong> en Sevilla</h1>
      <p class="lead skincolored"><strong>La mejor opción para disfrutar del deporte en la provincia de Sevilla</strong></p>
    </div>
  </div>
+</li>
+<li class="item" style="background-image: url({{ "/images/fotos/2.jpg" | prepend: site.baseurl }})">
+ <div class="container">
+  <div class="carousel-caption animated bounceInUp">
+   <h1 data-i18n="[html]dsesc1">Descubre el mejor club de<br/> <strong>Tenis & Padel</strong> en Sevilla</h1>
+   <p class="lead skincolored"><strong>La mejor opción para disfrutar del deporte en la provincia de Sevilla</strong></p>
+ </div>
+</div>
 </li>
 <li class="item" style="background-image: url({{ "/images/fotos/3.jpg" | prepend: site.baseurl }})">
  <div class="container">
@@ -30,23 +38,15 @@ id: main
  </div>
 </div>
 </li>
-<li class="item" style="background-image: url({{ "/images/fotos/4.jpg" | prepend: site.baseurl }})">
+<!-- <li class="item" style="background-image: url({{ "/images/fotos/4.jpg" | prepend: site.baseurl }})">
  <div class="container">
   <div class="carousel-caption animated bounceInUp">
    <h1 data-i18n="[html]dsesc1">Descubre el mejor club de<br/> <strong>Tenis & Padel</strong> en Sevilla</h1>
    <p class="lead skincolored"><strong>La mejor opción para disfrutar del deporte en la provincia de Sevilla</strong></p>
  </div>
 </div>
-</li>
+</li> -->
 <li class="item" style="background-image: url({{ "/images/fotos/5.jpg" | prepend: site.baseurl }})">
- <div class="container">
-  <div class="carousel-caption animated bounceInUp">
-   <h1 data-i18n="[html]dsesc1">Descubre el mejor club de<br/> <strong>Tenis & Padel</strong> en Sevilla</h1>
-   <p class="lead skincolored"><strong>La mejor opción para disfrutar del deporte en la provincia de Sevilla</strong></p>
- </div>
-</div>
-</li>
-<li class="item" style="background-image: url({{ "/images/fotos/6.jpg" | prepend: site.baseurl }})">
  <div class="container">
   <div class="carousel-caption animated bounceInUp">
    <h1 data-i18n="[html]dsesc1">Descubre el mejor club de<br/> <strong>Tenis & Padel</strong> en Sevilla</h1>
@@ -62,6 +62,15 @@ id: main
  </div>
 </div>
 </li>
+<li class="item" style="background-image: url({{ "/images/fotos/8.jpg" | prepend: site.baseurl }})">
+ <div class="container">
+  <div class="carousel-caption animated bounceInUp">
+   <h1 data-i18n="[html]dsesc1">Descubre el mejor club de<br/> <strong>Tenis & Padel</strong> en Sevilla</h1>
+   <p class="lead skincolored"><strong>La mejor opción para disfrutar del deporte en la provincia de Sevilla</strong></p>
+ </div>
+</div>
+</li>
+
 </ul>
 </div>
 </section>
@@ -118,13 +127,13 @@ id: main
    <div class="col-sm-12 col-md-offset-1 col-md-10">
      <ul class="nav nav-tabs" id="myTab" style="font-size: 1.4em; font-weight: bold;">
       <li class="active"><a data-toggle="tab" href="#alamo">Club Álamo center</a></li>
-      <li class=""><a data-toggle="tab" href="#moron">Club Morón 85</a></li>
       <li class=""><a data-toggle="tab" href="#milanos">Los Milanos</a></li>
+      <li class=""><a data-toggle="tab" href="#moron">Club Morón 85</a></li>
     </ul>
     <div class="tab-content" id="myTabContent" style="padding: 30px;">
      <br/>                                   
      <div id="alamo" class="tab-pane active fade in">
-       <div class="col-sm-12">
+       <div class="col-sm-9">
         <div class="portfolio_details">
          <h2 class="section_header">Club Álamo Center</h2>
          <br>
@@ -142,6 +151,14 @@ id: main
         <br>
         <a class="btn btn-primary" href="docs/alamo/escuelapadel.pdf" target="_blank"><i class="fa fa-file"></i>&nbsp; Escuela de pádel</a>
       </div>
+    </div>
+    <div class="col-sm-3">
+      <a href="docs/2015/tarifas.docx" target="_blank"  style="color: #DC6D2D;">
+        <div style="float: left; margin-right: 65px;">
+          <i class="fa fa-money" style="clear:both;"></i>
+          <h1 style="font-size: 22px; margin-top: 0px; font-weight: bold;">Tarifas</h1>
+        </div>
+      </a>
     </div>
   </div>
 
@@ -163,7 +180,7 @@ id: main
 
 
 <div id="milanos" class="tab-pane fade in">
- <div class="col-sm-12">
+ <div class="col-sm-6">
   <div class="portfolio_details">
    <h2 class="section_header">Los Milanos</h2>
    <br>
@@ -175,6 +192,22 @@ id: main
   <a class="btn btn-primary" href="docs/milanos/escuelapadel.pdf" target="_blank"><i class="fa fa-file"></i>&nbsp; Escuela de pádel</a>
 </div>
 </div> 
+<div class="col-sm-3">
+  <a href="docs/2015/normas_milanos.docx" target="_blank"  style="color: #428bca;">
+    <div style="float: left; margin-right: 30px;">
+      <i class="fa fa-money" style="clear:both; font-size: 65px;"></i>
+      <h1 style="font-size: 22px; margin-top: 0px; font-weight: bold;">Normativa</h1>
+    </div>
+  </a>
+</div>
+<div class="col-sm-3">
+  <a href="docs/2015/tarifas_milanos.docx" target="_blank"  style="color: #DC6D2D;">
+    <div style="float: left; margin-right: 30px;">
+      <i class="fa fa-money" style="clear:both; font-size: 65px;"></i>
+      <h1 style="font-size: 22px; margin-top: 0px; font-weight: bold;">Tarifas</h1>
+    </div>
+  </a>
+</div>
 </div>
 
 
@@ -204,11 +237,39 @@ id: main
   <div class="row">
    <div class="col-sm-12 col-md-offset-1 col-md-10">
      <ul class="nav nav-tabs" id="myTab" style="font-size: 1.4em; font-weight: bold;">
-      <li class="active"><a data-toggle="tab" href="#2014">2014-2015</a></li>
+      <li class="active"><a data-toggle="tab" href="#2015">2015-2016</a></li>
+      <!-- <li><a data-toggle="tab" href="#2014">2014-2015</a></li> -->
     </ul>
     <div class="tab-content" id="myTabContent" style="padding: 30px;">
      <br/>                                   
-     <div id="2014" class="tab-pane active fade in">
+     <div id="2015" class="tab-pane active fade in">
+       <p class="lead">Aquí tienes toda la información relativa a los cursos de la temporada 2014-2015:</p>
+       <center>
+         <div class="col-sm-12" style="font-size: 60px; color: #405467; margin-left: 40px; margin-top: 20px; margin-bottom: 40px; clear:both;">
+          <div class="col-sm-3">
+            <a href="docs/2015/calendario.xlsx" target="_blank" style="color: #BB4343;">
+              <div style="float: left; margin-right: 30px;">
+                <i class="fa fa-calendar" style="clear:both;"></i>
+                <h1 style="font-size: 18px; margin-top: 0px; font-weight: bold;">Calendario 2015-2016</h1>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-sm-3">
+            <a href="docs/2015/inscripcion.docx" target="_blank"  style="color: #2C961E;">
+              <div style="float: left; margin-right: 30px;">
+                <i class="fa fa-edit" style="clear:both;"></i>
+                <h1 style="font-size: 18px; margin-top: 0px; font-weight: bold;">Formulario de inscripción</h1>
+              </div>
+            </a>
+          </div>
+        </div>
+        <br/>
+        <br/>
+        <a class="btn btn-primary" href="mailto:{{ site.email }}"><i class="fa fa-send"></i>&nbsp;Solicitar inscripción a curso</a>
+      </center>
+    </div>
+  <!--   <div id="2014" class="tab-pane fade in">
       <p class="lead">Aquí tienes toda la información relativa a los cursos de la temporada 2014-2015:</p>
       <center>
        <div class="col-sm-12" style="font-size: 60px; color: #405467; margin-left: 40px; margin-top: 20px; margin-bottom: 40px; clear:both;">
@@ -252,7 +313,7 @@ id: main
       <br/>
       <a class="btn btn-primary" href="mailto:{{ site.email }}"><i class="fa fa-send"></i>&nbsp;Solicitar inscripción a curso</a>
     </center>
-  </div>
+  </div> -->
 </div>
 </div>
 </div>
@@ -310,13 +371,13 @@ id: main
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
     <div style="  width: 600px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 30px;">
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;">
     <div class="fb-page" data-href="https://www.facebook.com/tenispadelsevilla" data-width="500" data-height="500" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"></div>
-    </div>
   </div>
+</div>
 </center>
 
 
@@ -371,7 +432,7 @@ id: main
 </div>
 <br/><br/>
 <div class="row">
- <div class="col-sm-6 col-md-3">
+<!--  <div class="col-sm-6 col-md-3">
   <div class="team_member">
    <img src="images/personal/guillermoriverocoordinador.jpg" class="img-circle">
    <h5>Guillermo Rivera<br/></h5>
@@ -383,8 +444,8 @@ id: main
       <li>Estudiante de derecho y gestión administración pública</li>
     </ul>
   </p>
-</div>
-</div>
+</div> 
+</div>-->
 <div class="col-sm-6 col-md-3">
   <div class="team_member">
    <img src="images/personal/jantonio.jpg" class="img-circle">
@@ -393,14 +454,14 @@ id: main
    <p class="short_bio"></p>
  </div>
 </div>
-<div class="col-sm-6 col-md-3">
+<!-- <div class="col-sm-6 col-md-3">
   <div class="team_member">
     <img src="images/personal/rjimenez.jpg" class="img-circle">
     <h5>Rolando Jiménez</h5>
     <small>Monitor de Tenis y Pádel</small>
     <p class="short_bio"></p>
   </div>
-</div>
+</div> -->
 <div class="col-sm-6 col-md-3">
   <div class="team_member">
     <img src="images/personal/fnunez.jpg" class="img-circle">
@@ -409,7 +470,24 @@ id: main
     <p class="short_bio"></p>
   </div>
 </div>
+<div class="col-sm-6 col-md-3">
+  <div class="team_member">
+    <img src="images/personal/ifernandez.jpg" class="img-circle">
+    <h5>Israel Fernández</h5>
+    <small>Monitor de Padel</small>
+    <p class="short_bio">
+      <ul class="text-left">
+        <li>Subcampeon sub 23 de andalucia</li>
+        <li>Campeon de españa por equipos 2ª CATEGORIAS</li>
+        <li>RANKING DE ANDALUCIA Nº26</li>
+        <li>RANKING DE SEVILLA Nº 11</li>
+        <li>RANKING NACIONAL</li>
+      </ul>
+    </p>
+  </div>
 </div>
+</div>
+
 </div>
 </section>
 
@@ -421,6 +499,7 @@ id: main
  <div class="container">
   <h2 class="section_header elegant centered">Nuestros patrocinadores<small>Agradecimiento especial a las empresas que nos apoyan y patrocinan</small></h2>
   <div class="clients_list"> 
+    <a href="javascript:void(0);"><img src="images/patrocinadores/becas.jpg"></a>&nbsp;
     <a href="javascript:void(0);"><img src="images/patrocinadores/pacific.jpeg"></a>&nbsp;
     <a href="javascript:void(0);"><img src="images/patrocinadores/jsmith.png"></a>&nbsp;
     <a href="javascript:void(0);"><img src="images/patrocinadores/bullpadel.png"></a>&nbsp;
